@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e4933e4d13.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+     <div class="container">
+           <nav>
+            <img src="images/mainlogo.png" class="mainlogo">
+            <ul id="side-menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contact Us</a></li>
+            
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+           <i class="fas fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <div class="headertext">
+            <p>Web Developer</p>
+            <h1>Hi,I'm <span>Ankit</span><br>Parira From India</h1>
+           </div>
+     </div>
+
+
+    </div>
+        
+
+    <!-- ----------------------------about--------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="images/myimage.png">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hi everyone , myself Ankit Parira currently pursuing bteck from kalinga institute of industrial tecknology.
+                        I love to know new teck and very excited to work in the product based company.I'm loving with the fact that all
+                        are now just launching new products in product based and when I see all those stuffs I feel to meet those persons 
+                        face to face.At last I am very passionate in working with new projects,meeting with new people ,learning new thoughts
+                        etc.  
+                    </p>
+
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentab('Skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('Work-Experience')">Work-Experience</p>
+                         <p class="tablinks"onclick="opentab('Education')">Education</p>
+                    </div>
+                      <div class="tabcontents activetab" id="Skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Developent of Website</li>
+                            <li><span>App Developer</span><br>Develop Android Apps</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="Work-Experience">
+                        <ul>
+                            <li><span>2021-2022</span><br>Interenship at INTERNSHALA </li>
+                            <li><span>2022-Current</span><br>Trainning</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="Education">
+                        <ul>
+                            <li><span>2018</span><br>10th from Chinmaya Vidyalaya (Percentage-82%) </li>
+                            <li><span>2020</span><br>12th from Shree Ayyappa Public School(Percentage-81%) </li>
+                            <li><span>2022-Current</span><br>In Kalinga Institute of Industrial Technology(KIIT)(CGPA-8.92)</li>                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- -------------------services------------------- -->
+       <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My-Services</h1>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-pager"></i>
+                    <h2>Web developer</h2>
+                    <p>According to me web developent is most staisfying thinh when you pass each riddle
+                        and then the output become so attractive,that thing makes me love with this.
+                        that why i love to do the web design/code.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+ 
+ 
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Coder</h2>
+                    <p>Love to code in c++,using data structures and algorithm.I love to code in such a way that
+                        the code should not look like that is lengthy or so.I make it as simple as that with the hekp of
+                        stl,etc.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App developer</h2>
+                    <p>I have the little knowledge aboout the app development that how the app works 
+                        how the interface look like so that the user which will use it will be as simple as that for IOS/Android
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+       </div>    
+
+
+
+    <!-- ----------------------------portfolio---------------- -->
+    <div id="portfolio">
+         <div class="container">
+            <h1 class="subtitle">My Workspace</h1>
+            <div class="workspace">
+                 <div class="works">
+                    <img src="images/workspace1.png">
+                    <div class="layers">
+                        <h3>Git Hub</h3>
+                        <p>In this you will get all the codes which I have<br> done in the past days
+                            and also make it informative.</p>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        
+                    </div>
+
+                 </div>
+                 <div class="works">
+                    <img src="images/workspace2.webp">
+                    <div class="layers">
+                        <h3>Restaurant Website</h3>
+                        <p>
+                        This website show you all the foods and description of that food in one place . You can order
+                        as well as give feedback to it.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-truck-fast"></i></a>
+                    </div>
+                 </div>
+                 <div class="works">
+                    <img src="images/workspace3.jfif">
+                    <div class="layers">
+                        <h3>Responsive Portfolio Website</h3>
+                        <p>
+                        This website show you all the achivemments made by me and updated plans will be alss
+                        updated in this.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-user"></i></a>
+                    </div>
+                 </div>
+            </div>
+            <a href="#" class="btn">More</a>
+         </div>
+    </div>
+
+
+
+
+    <!-- --------------------contacts---------------------- -->
+     <div id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                   <h1 class="subtitle">Contact Us</h1>
+                   <p><i class="fa-regular fa-paper-plane"></i>ContactUs@gmail.com</p> 
+                   <p><i class="fa-solid fa-phone-volume"></i>+91-999999999</p>
+                   <div class="socialicons">
+                      <a href="https://www.linkedin.com/in/ankit-parira-480046237/"><i class="fa-brands fa-linkedin"></i></a>
+                      <a href="https://web.telegram.org/z/#-1670853839"><i class="fa-brands fa-telegram"></i></a>
+                      <a href="https://web.whatsapp.com/"><i class="fa-brands fa-square-whatsapp"></i></a>
+                      <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://twitter.com/AnkitParira"><i class="fa-brands fa-square-twitter"></i></a>
+
+                   </div>
+                   <a href="images/Ankit's Resume.pdf" download class="btn btn1">Download CV</a>
+                </div>
+                <div class="contactright">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                    <span id="msgs"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copywrite">
+            <p>Copywrite <i class="fa-solid fa-copyright"></i>.Made by Ankit Parira</p>
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("activelink");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+    </script>
+
+    <script>
+        var sidemeu =document.getElementById("side-menu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzJEKIm6fxIwjR5bNjOBjV_CsCeBrj4N-Jmus7DcefChz7ORvAkQ_L4tbzcSYrMLlNy/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const mags =document.getElementById("msgs");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msgs.innerHTML = "Thankyou for Submiting , Message sent Succesfully"
+            setTimeout(function(){
+                msgs.innerHTML =""
+            },4500)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
